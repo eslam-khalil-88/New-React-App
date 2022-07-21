@@ -1,0 +1,138 @@
+.App {
+   text-align: left; 
+     
+}
+body{
+  /* background-color: rgb(177, 145, 104);  */
+  background-image: url("white-back.jpg");
+  background-attachment: fixed;
+}
+header{
+  font-size: 2em;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+header{
+  font-family: 'Oswald', sans-serif;
+}
+
+#WelcomePagestyle{
+  
+  font-family: 'Cormorant SC', serif;
+  text-align: center; 
+  
+}
+
+nav{
+  position: relative;
+  z-index: 10;
+}
+
+#Navbar1{
+  display: flex ;
+  border: solid rgba(229, 218, 204 , 0.5) 2px;
+  position: fixed;
+  z-index: 10;
+  width: 95%;
+  height: 6%;
+  margin: 0.5em;
+  border-radius: 1.1em;
+  justify-content: space-around;
+  list-style-type: none ;
+  background-color: rgba(229, 218, 204 , 0.5);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}
+
+#Main{
+  padding: 3em;
+  position: relative;
+  z-index: 5;
+}
+
+#loginBtn{
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  background-color: red;
+  border: solid red 2px;
+  border-radius: 0.6em;
+  
+}
+
+.Btn1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 0.5em;
+  height: 80%;
+  border-radius: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+.Btn2{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 0.8em;
+  border-radius: 2em;
+  height: 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.Btn1:hover{
+  background-color: #361e58;
+}
+.Btn2:hover{
+  background-color: #361e58;
+}
+
+#LoginForm{
+  border:solid rgb(106, 106, 100) 0.2em; 
+  border-radius: 0.8em;
+  transition: width 2s linear 1s;
+  padding: 0.5em;
+  text-align: center;
+  width: 50%;
+  margin-left: 18em;
+  background-image: linear-gradient(to right, rgb(206, 206, 166) , rgb(228, 228, 109));
+}
+
+input{
+  width: 30%;
+  height: 60%;
+  border-radius: 0.6em;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  text-align: center;
+  padding: 0.3em;
+  border-radius: 0.9em;
+  width:99%;
+  height:3em;   /* Height of the footer */
+  background:#66ccff;
+  font-weight: bold;
+}
+
+#FooterPages{
+  height: 10%;
+  padding-left: 47em;
+  
+  
+}
+img{
+  
+  padding-top: 0.3em;
+  margin-left: 0.4em;
+}
